@@ -20,7 +20,8 @@ class MinStack:
         
 
     def getMin(self) -> int:
-        return self.minstack[-1]
+        return self.minstack[-1] # this is solved on leetcode by me and then i paste it here instead writing it again for pushing on git hub
+        
         
 
 
