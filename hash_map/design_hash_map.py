@@ -18,8 +18,7 @@ class map():
                 curr.next.val=val
                 return
             curr=curr.next
-        curr.next=list_node(key=key,val=val) # point to  the next node on the the colloision]
-
+        curr.next=list_node(key=key,val=val) # point to  the next node on the the colloision] and handle the case when it is the first key val so dummy point to the first node if it is first 
     def get(self,key):
         curr=self.map[self.get_index(key)].next
         while curr:
