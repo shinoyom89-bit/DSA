@@ -17,7 +17,7 @@ class queue():
 
             print(self.queue[0])
             self.queue=self.stack
-            self.stack=[]
+            self.stack=None
     def first(self):
         return self.queue[0]
     def display(self):
